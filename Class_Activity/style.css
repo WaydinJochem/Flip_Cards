@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body {
+    background-color: tan;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: #333;
+    height: 80px;
+}
+
+li {
+    float: left;
+    padding: 20px 40px;
+    border-right-color: aliceblue;
+    border-right-style: solid;
+    border-right-width: 2px;
+    height: 38px;
+}
+
+li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+li:last-child {
+    float: right;
+    border-right: none;
+    border-left-width: 2px;
+    border-left-color: aliceblue;
+    border-left-style: solid;
+    height: 38px;
+}
+
+li:hover {
+    border-radius: 50%;
+    background-color: rgb(17, 17, 117);
+    border-width: 5px;
+}
+
+div {
+    background-color: aliceblue;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.a {
+    background-color: aliceblue;
+}
+
+.b {
+    background-color: aqua;
+}
+
+.c {
+    background-color: blue;
+}
+
+img {
+    float: left;
+    padding: 30px;
+    margin: 25px;
+    margin-left: 80px;
+    display: block;
+    height: 80%;
+    width: 130px;
+}
+
+.courage {
+    background-color: black;
+}
+
+.jungle {
+    background-color: black;
+}
+
+.genuise {
+    background-color: black;
+}
+
+.plot {
+    background-color: black;
+}
+.dumb {
+    background-color: black;
+}
